@@ -1,0 +1,1212 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "how are ya",
+                "heyy",
+                "whatsup",
+                "??? ??? ??"
+            ],
+            "responses": [
+                "Hello!",
+                
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "ttyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developers",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creators",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "MKCE Student"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me Admission-bot.",
+                "I'm Admission-bot",
+                "I am a Chatbot.",
+                "I am your helper"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "about",
+            "patterns":[
+                "about",
+                "about college",
+                "college info",
+                "intro of college",
+                "give a short info about the college",
+                "tell something about college "
+            ],
+            "responses":[
+                "MKCE Karur"
+            ]
+        },
+
+
+
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of college",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the college open",
+                "college timing",
+                "what about college timing",
+                "is college open on saturday",
+                "tell something about college timing",
+                "what is the college  hours",
+                "when should i come to college",
+                "when should i attend college",
+                "what is my college time",
+                "college timing",
+                "timing college"
+            ],
+            "responses": [
+                "College is open 9am-4pm Monday-Friday!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact college",
+                "college telephone number",
+                "college number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                "College phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "You can contact at: 1234567890"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                "list of courses",
+                "list of courses offered",
+                "list of courses offered in",
+                "what are the courses offered in your college?",
+                "courses?",
+                "courses offered",
+                "courses offered in (your univrsity(UNI) name)",
+                "courses you offer",
+                "branches?",
+                "courses available at UNI?",
+                "branches available at your college?",
+                "what are the courses in UNI?",
+                "what are branches in UNI?",
+                "what are courses in UNI?",
+                "branches available in UNI?",
+                "can you tell me the courses available in UNI?",
+                "can you tell me the branches available in UNI?",
+                "computer engineering?",
+                "computer",
+                "Computer engineering?",
+                "it",
+                "IT",
+                "Information Technology",
+                "AI/Ml",
+                "Mechanical engineering",
+                "Chemical engineering",
+                "Civil engineering"
+            ],
+            "responses": [
+                "Our college offers following courses : <br>1. Information Technology <br>2. Computer Engineering   <br>3. Mechanical Engineering <br>4. Electrical Engineering <br>5. Electronics and Telecommunication Engineering <br>6. Artificial Intelligence and Data Science Engineering"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                "college fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees",
+                "What is the fees of hostel",
+                "how much is the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room",
+                "fees for Ac room for girls",
+                "fees for non-Ac room for girls",
+                "fees for Ac room for boys",
+                "fees for non-Ac room for boys"
+            ],
+            "responses": [
+                "Plz Contact College"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the college located",
+                "college is located at",
+                "where is college",
+                "where is college located",
+                "address of college",
+                "how to reach college",
+                "college location",
+                "college address",
+                "wheres the college",
+                "how can I reach college",
+                "whats is the college address",
+                "what is the address of college",
+                "address",
+                "location"
+            ],
+            "responses": [
+                "Karur"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "hostel facility",
+                "hostel servive",
+                "hostel location",
+                "hostel address",
+                "hostel facilities",
+                "hostel fees",
+                "Does college provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "do you guys have hostel",
+                "hostel",
+                "hostel capacity",
+                "what is the hostel fee",
+                "how to get in hostel",
+                "what is the hostel address",
+                "how far is hostel from college",
+                "hostel college distance",
+                "where is the hostel",
+                "how big is the hostel",
+                "distance between college and hostel",
+                "distance between hostel and college"
+            ],
+            "responses": [
+                "Our college has an an campus, with Wi-Fi enabled Boys' hostel and Girls hostel with capacity to accommodate 444 students (Boys: 276 and Girls: 168) - Fully furnished hostel rooms with attached bathroom, hot water facility through Solar System Health care facility and Professional Counselor for students"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "events organised",
+                "list of events",
+                "list of events organised in college",
+                "list of events conducted in college",
+                "What events are conducted in college",
+                "Are there any event held at college",
+                "Events?",
+                "functions",
+                "what are the events",
+                "tell me about events",
+                "what about events"
+            ],
+            "responses": [
+                "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\" rel=\"noopener noreferrer\"> here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "document to bring",
+                "documents needed for admision",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admision",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What document are required for admission",
+                "Which document to bring for admission",
+                "documents",
+                "what documents do i need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "The documents that are required for the admission process are : Passport size Photograph, 10th and 12th marksheet, Domicile Certificate, Caste Certificate, Caste Validity(only if the candidate belongs to SC, ST or OBC), Income Certificate "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "floors",
+            "patterns": [
+                "size of campus",
+                "building size",
+                "How many floors does college have",
+                "floors in college",
+                "floors in college",
+                "how tall is UNI's College of Engineering college building",
+                "floors"
+            ],
+            "responses": [
+                "Our College has total 6 floors "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "Syllabus for IT",
+                "what is the Information Technology syllabus",
+                "syllabus",
+                "timetable",
+                "what is IT syllabus",
+                "syllabus",
+                "What is next lecture"
+            ],
+            "responses": [
+                "In first year all the branches have same academic cirricular. The subject in first year are : Engg. Mathematics-I, Engg. Mathematics-II, Engg. Physics, Engg. Chemistry, Engg. Mechanics, Basic Electrical Engg., Basic Electronics Engg., Engg. Graphics, System in Mechanical Engg., Programming and Problem Solving."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have library",
+                "does the college have library facility",
+                "college library",
+                "where can i get books",
+                "book facility",
+                "Where is library",
+                "Library",
+                "Library information",
+                "Library books information",
+                "Tell me about library",
+                "how many libraries"
+            ],
+            "responses": [
+                "There is one huge and spacious library in the college. The timings are 8 : 45 am to 5 : 30 pm "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is college infrastructure",
+                "infrastructure",
+                "college infrastructure"
+            ],
+            "responses": [
+                "Our College has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in college",
+                "Does college have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Food",
+                "Cafetaria"
+            ],
+            "responses": [
+                "Our College has in-campus canteen with variety of food available"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "menu",
+            "patterns": [
+                "food menu",
+                "food in canteen",
+                "Whats there on menu",
+                "what is available in college canteen",
+                "what foods can we get in college canteen",
+                "food variety",
+                "What is there to eat?"
+            ],
+            "responses": [
+                "Our college canteen a serve wid range of food items. So famous ones are : Vada-sambar, Idle-Vada-sambar, Alu-puri, Paneer Paratha, Fruit Mocktail and many more on menu"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is college placement",
+                "Which companies visit in college",
+                "What is average package",
+                "companies visit",
+                "package",
+                "About placement",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                " successful placement season with top recruiters like TCS, Wipro, Infosys, Cognizant, Deloitte, ICICI Bank, HDFC Bank, Axis Bank, and many more1. The placement process included pre-placement talks, group discussions, and personal interviews1. The college placement cell has been successful in providing opportunities with companies such as Barclays, Yes Bank, TCS, Flipkart, Aloha, Cognizant, and Wipro, offering salary packages ranging from 5 LPA to 14 LPA2. The average package for recruited positions like system engineer, project engineer, programmer, etc. is 6 LPA. To know more about placement visit <a target=\"_blank\" href=\"https://mmcoe.edu.in/index.php/information-technology/information-technology/placements\" rel=\"noopener noreferrer\">here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ithod",
+            "patterns": [
+                "Who is HOD of IT department",
+                "Where is HOD of IT dept",
+                "it hod",
+                "name of it hod"
+            ],
+            "responses": [
+                "The HOD of IT department is Dr. Rupali M. Chopade"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "extchod",
+            "patterns": [
+                "Who is extc HOD",
+                "Where is  extc HOD",
+                "extc hod",
+                "name of extc hod"
+            ],
+            "responses": [
+                "Different school wise hod are different.So be more clear with your school or department"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "scholarship",
+                "Is scholarship available",
+                "scholarship engineering",
+                "available scholarships",
+                "list of scholarship"
+            ],
+            "responses": [
+                "Many government scholarships are supported by our university and college"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities college provide",
+                "College facility",
+                "What are college facilities",
+                "facilities",
+                "facilities provided"
+            ],
+            "responses": [
+                "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "college intake",
+            "patterns": [
+                "max number of students",
+                "number of seats per branch",
+                "number of seats in each branch",
+                "maximum number of seats",
+                "maximum students intake",
+                "What is college intake",
+                "how many stundent are taken in each branch",
+                "seat allotment",
+                "seats"
+            ],
+            "responses": [
+                "No. seats in each dept are as follows : <br>1. Information Technology - 60 <br>2. Computer Engineering - 120 <br>3.Artifical Intelligence and Data Science - 60 <br>4. Electronics and Telecommunication - 120 <br>5. Mechanical Engineering - 120 <br>6. Electrical Engineering - 60."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does college have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "Uniform includes following clothing - <br>1. Formal White Shirt <br>2. Formal Navy Blue Pants <br>3. Maroon Tie"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester starts",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "Holiday in these year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When is holidays",
+                "how long will be the vacation"
+            ],
+            "responses": [
+                "Academic calender is given to you by your class-soordinators after you join your respective classes. That calender will properly guide you about the holidays you gonna get in your engg. journey."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our college encourages all-round development of students and hence provides sports facilities in the campus. College faclited with large playground and well equiped sports rooms to play the sports like cricket, football, volleyball, etc. College also provides a Gymmnasim facility for the students. Our college also has a separate indoor game sections where various games like chess, carmon, table tennis can be played"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you, what else you want to know?",
+                "welcome, anything else i can assist you with?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding college",
+                "You can ask me questions regarding college, and i will try to answer them"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging against",
+                "antiragging facility",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cutoff",
+            "patterns": [
+                "cuttof",
+                "what is cutoff for the college",
+                "what is tihe general cutoff of the college",
+                "it cutoff",
+                "cs cutoff",
+                "entc cutoff",
+                "Mechanical cutoff",
+                "electrical cutoff",
+                "computer cutoff",
+                "artificial intelligence cutoff",
+                "aids cutoff",
+                "Information Technology cutoff" 
+            ],
+            "responses": [
+                "For MMCOE, Pune UG admissions candidates must have passed class 12th with at least 50% marks from a recognised board also valid score in JEE Main, MHT CET conducted by NTA and State Common Entrance Test Cell - Maharashtra State respectively.<br> Here are the individual cutoff list of each branch : <br> BE Mechcanical - 53.82 <br> BE Electrical - 58.71 <br> BE ENTC -93.89 <br> BE IT - 96.45 <br> BE Computer - 97.18 <br> BE AIDS - 95.56"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Steps to complete the admission",
+            "patterns": [
+                "steps",
+                "admission steps",
+                "what are the steps of admission process",
+                "admission process",
+                "step by step admission procedure",
+                "admission flowchart",
+                "admission procedure" 
+            ],
+            "responses": [
+                "Following are the steps for admission procedure : <br>Step  1 - registration of student(FMCIII Entrance) <br>Step  2 - seat acceptance confirmation & admission form filling through ERP portal(MB205) <br>Step  3 - scrutiny & verification of documents(MB207) <br>Step  4 - fee payment through ERP portal(MB207) <br>Step  5 - online admission confirmation(MB207) <br>Step  6 - submission of documents(MB207) <br>Step  7 - allotment of CPRN(MB207) <br>Step  8 - I-card & welcome kit collection(MB207) <br>Step  9 - hostel accommodation for girls/boys(if required)(MB207) <br>Step 10 - join branchwise whatsapp group"
+            ],
+            "context_set": ""
+        },
+
+        {
+  "tag": "CSE",
+  "patterns": [
+    "What is the difference between symmetric and asymmetric encryption?",
+    "Symmetric vs asymmetric encryption",
+    "Explain encryption types"
+  ],
+  "responses": [
+    "Symmetric encryption uses the same key for encryption and decryption, while asymmetric encryption uses a pair of keys.<br> Symmetric encryption is faster, but asymmetric encryption provides better security.<br> Asymmetric encryption is used for key exchange, while symmetric encryption is used for data encryption."
+  ],
+  "context_set": ""
+
+  },
+        {
+        "tag": "CSE",
+  "patterns": [
+    "What is the time complexity of bubble sort?",
+    "Bubble sort time complexity",
+    "How efficient is bubble sort?"
+  ],
+  "responses": [
+    "The time complexity of bubble sort is O(n^2) in the worst case.<br> Bubble sort has a time complexity of O(n) in the best case, but it's generally considered inefficient for large datasets.<br> Bubble sort's time complexity is quadratic, making it less suitable for large-scale applications."
+  ],
+  "context_set": ""
+  },
+
+{
+  "tag": "Java",
+  "patterns": [
+    "How do I sort an ArrayList in Java?",
+    "Java ArrayList sorting",
+    "Sort ArrayList in Java"
+  ],
+  "responses": [
+    "Use the Collections.sort() method to sort an ArrayList.<br> You can also use the Arrays.sort() method if you have an array.<br> Don't forget to import java.util.Collections!"
+  ],
+  "context_set": {
+    "topic": "Java Collections",
+    "subtopic": "ArrayList and LinkedList",
+    "related_topics": ["Java Data Structures", "Java Algorithms"]
+  }
+},
+        {
+  "tag": "Java",
+  "patterns": [
+    "What is the difference between == and.equals() in Java?",
+    "Java equality operators",
+    ".equals() vs == in Java"
+  ],
+  "responses": [
+    "The == operator checks for reference equality, while.equals() checks for value equality.<br>Use == for primitive types and.equals() for objects.<br> Remember, == is not the same as.equals()!"
+  ],
+  "context_set": {
+    "topic": "Java Fundamentals",
+    "subtopic": "Operators and Control Structures",
+    "related_topics": ["Java Syntax", "Java Basics"]
+  }
+},
+        {
+  "tag": "Java",
+  "patterns": [
+    "What is the difference between interface and abstract class in Java?",
+    "Java interface vs abstract class",
+    "When to use interface vs abstract class"
+  ],
+  "responses": [
+    "An interface defines a contract, while an abstract class provides a partial implementation.<br> Use an interface when you want to define a contract, and an abstract class when you want to provide a base implementation.<br> Remember, an interface can't have state, but an abstract class can!"
+  ],
+  "context_set": {
+    "topic": "Java Object-Oriented Programming",
+    "subtopic": "Interfaces and Abstract Classes",
+    "related_topics": ["Java Inheritance", "Java Polymorphism"]
+  }
+},
+         {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What would you like to know about mentor booking?"
+      ]
+    },
+    {
+  "tag": "start_booking",
+  "patterns": [
+    "I want to book a mentor session",
+    "Can I schedule a meeting with a mentor?",
+    "How do I book a mentor?",
+    "I’d like to book a session with my mentor",
+    "Help me book a mentoring session",
+    "Book a mentor for me",
+    "I need to book a mentor session"
+  ],
+  "responses": [
+    "Sure! I can help with that. Would you like to see a list of available mentors?",
+    "Absolutely! Let’s start. Do you need a list of available mentors?",
+    "Of course! Would you like to check the list of mentors available for booking?"
+  ]
+},
+
+    {
+      "tag": "mentor_booking",
+      "patterns": [
+        "I want to book a mentor",
+        "Can I book a mentor?",
+        "Help me find a mentor",
+        "How do I book a mentor?",
+        "What is the process for booking a mentor?",
+        "Can I book a session with [mentor’s name]?"
+      ],
+      "responses": [
+        "To book a mentor, please specify the mentor's area of expertise or their name. For example, 'I want to book Mrs. S M. HEMALATHA for Machine Learning.'"
+      ]
+    },
+    {
+  "tag": "display_available_mentors",
+  "patterns": [
+    "show available mentors",
+    "list of mentors",
+    "available mentors",
+    "can you show mentors I might be interested in?",
+    "display mentors for booking",
+    "who are the mentors I can book?",
+    "view available mentors",
+    "mentor list",
+    "available mentors by specialty"
+  ],
+  "responses": [
+    "Here are some mentors you might be interested in:\n\n- Dr. A. SELVI: Machine Learning, Deep Learning\n- Mr. K. JEYAGANESHKUMAR: Data Science, AI Ethics, Machine Learning\n- Ms. A. NITHYASRI: Computer Vision, Image Processing\n- Mrs. P. VIDHYA: Natural Language Processing, Text Analytics\n- Mrs. M. SARATHA: Big Data Analytics, Data Visualization\n- Mrs. M. AMSA: AI in Healthcare, Predictive Analytics\n- Mr. M. JAGANATH: Reinforcement Learning, Robotics\n- Mr. R. STALINBABU: Cloud Computing, AI Infrastructure\n- Mrs. BHARANINAYAGI: Statistical Modeling, Predictive Modeling\n- Mrs. S M. HEMALATHA: Data Mining, Machine Learning\n- Mrs. S. RAMYA: AI for Social Good, Ethics in AI\n- Mrs. B. SRIBHARATHI: Neural Networks, Deep Learning\n- Mrs. K. NIVETHA: Natural Language Processing, AI in Finance\n- Mrs. S. JOTHIMANI: AI Ethics, AI Regulation\n- Mrs. ANANYA: Computer Vision, Reinforcement Learning.\n\nPlease let me know if you'd like to book a session with any of these mentors!"
+  ]
+},
+
+    {
+  "tag": "book_mentor_session",
+  "patterns": [
+    "How can I book a session with my mentor?",
+    "I want to schedule a meeting with a mentor.",
+    "Can I book a mentor?",
+    "How do I set up a session with my mentor?",
+    "Is it possible to book a session?",
+    "Book my mentor for next week.",
+    "I'd like to book a mentoring session.",
+    "Schedule a meeting with my mentor.",
+    "Help me book a mentor session.",
+    "Can you book a mentor for me?",
+    "I need to book a session with my mentor."
+  ],
+  "responses": [
+    "Sure! To book a mentor, please select an available time slot in your profile.",
+    "You can book a session by checking your mentor’s availability and choosing a time that works for you.",
+    "Just follow the booking steps in your profile to confirm a session.",
+    "To schedule a session, go to the booking page and pick a time slot that suits you.",
+    "Please access your mentor’s profile and select a time to book your session."
+  ]
+},
+
+
+    {
+      "tag": "mentor_matching",
+      "patterns": [
+        "Can you recommend a mentor for me?",
+        "Which mentor is best for [specific subject]?",
+        "Can you help me find a mentor for [specific goal, e.g., career guidance]?",
+        "Who are the mentors available for [specific area of interest]?"
+      ],
+      "responses": [
+        "Please specify the subject or area you’re interested in, and I'll help you find the best match.",
+        "We have mentors specialized in various areas such as AI Ethics, Machine Learning, Data Science, and more."
+      ]
+    },
+    {
+      "tag": "mentor_profiles",
+      "patterns": [
+        "Can you show me mentors in AI?",
+        "Who are the available mentors?",
+        "Tell me more about the mentors in Machine Learning."
+      ],
+      "responses": [
+        "Here are some mentors you might be interested in:\n- Dr. A. SELVI: Machine Learning, Deep Learning\n- Mr. K. JEYAGANESHKUMAR: Data Science, AI Ethics, Machine Learning\n- Ms. A. NITHYASRI: Computer Vision, Image Processing\n- Mrs. P. VIDHYA: Natural Language Processing, Text Analytics\n- Mrs. M. SARATHA: Big Data Analytics, Data Visualization\n- Mrs. M. AMSA: AI in Healthcare, Predictive Analytics\n- Mr. M. JAGANATH: Reinforcement Learning, Robotics\n- Mr. R. STALINBABU: Cloud Computing, AI Infrastructure\n- Mrs. BHARANINAYAGI: Statistical Modeling, Predictive Modeling\n- Mrs. S M. HEMALATHA: Data Mining, Machine Learning\n- Mrs. S. RAMYA: AI for Social Good, Ethics in AI\n- Mrs. B. SRIBHARATHI: Neural Networks, Deep Learning\n- Mrs. K. NIVETHA: Natural Language Processing, AI in Finance\n- Mrs. S. JOTHIMANI: AI Ethics, AI Regulation\n- Mrs. ANANYA: Computer Vision, Reinforcement Learning"
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "Which mentor is best for Deep Learning?",
+        "Looking for a mentor in Deep Learning",
+        "Can you suggest someone for Deep Learning?"
+      ],
+      "responses": [
+        "For Deep Learning, you might consider Dr. A. SELVI or Mrs. B. SRIBHARATHI, who have expertise in this area."
+      ]
+    },
+    {
+      "tag": "ai_ethics",
+      "patterns": [
+        "Who is best for guidance on AI Ethics?",
+        "Looking for a mentor in AI Ethics",
+        "I need guidance on AI Ethics"
+      ],
+      "responses": [
+        "For AI Ethics, you can consult Mr. K. JEYAGANESHKUMAR, Mrs. S. JOTHIMANI, or Mrs. S. RAMYA. Each specializes in ethics and regulation in AI."
+      ]
+    },
+    {
+      "tag": "natural_language_processing",
+      "patterns": [
+        "Can you recommend a mentor for NLP?",
+        "Who is available for Natural Language Processing?",
+        "Looking for guidance in NLP"
+      ],
+      "responses": [
+        "For NLP, you might consider Mrs. P. VIDHYA or Mrs. K. NIVETHA, who specialize in this area."
+      ]
+    },
+    {
+      "tag": "big_data_analytics",
+      "patterns": [
+        "Looking for a mentor in Big Data Analytics",
+        "Who specializes in Data Visualization?",
+        "I need help with Big Data"
+      ],
+      "responses": [
+        "For Big Data Analytics and Data Visualization, you might want to consult Mrs. M. SARATHA."
+      ]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": [
+        "Looking for a mentor in Reinforcement Learning",
+        "Can you recommend someone for Reinforcement Learning?",
+        "I need help with Reinforcement Learning"
+      ],
+      "responses": [
+        "For Reinforcement Learning, Mr. M. JAGANATH or Mrs. ANANYA would be great choices. They have a background in both RL and Robotics."
+      ]
+    },
+    {
+      "tag": "statistical_modeling",
+      "patterns": [
+        "Can you recommend someone for Statistical Modeling?",
+        "Who specializes in Predictive Modeling?",
+        "Looking for help in statistical analysis"
+      ],
+      "responses": [
+        "For Statistical Modeling and Predictive Modeling, Mrs. BHARANINAYAGI would be an excellent choice."
+      ]
+    },
+    {
+      "tag": "selvi_time_slots",
+      "patterns": [
+        "What are Dr. A. SELVI's available times?",
+        "When is Dr. A. SELVI available?",
+        "Can I book Dr. A. SELVI?"
+      ],
+      "responses": [
+        "Dr. A. SELVI - Machine Learning, Deep Learning: Mondays and Wednesdays from 10:00 AM to 12:00 PM"
+      ]
+    },
+    {
+      "tag": "jeyaganeshkumar_time_slots",
+      "patterns": [
+        "What are Mr. K. JEYAGANESHKUMAR's available times?",
+        "When is Mr. K. JEYAGANESHKUMAR available?",
+        "Can I book Mr. K. JEYAGANESHKUMAR?"
+      ],
+      "responses": [
+        "Mr. K. JEYAGANESHKUMAR - Data Science, AI Ethics, Machine Learning: Tuesdays and Thursdays from 2:00 PM to 4:00 PM"
+      ]
+    },
+    {
+      "tag": "nithyasri_time_slots",
+      "patterns": [
+        "What are Ms. A. NITHYASRI's available times?",
+        "When is Ms. A. NITHYASRI available?",
+        "Can I book Ms. A. NITHYASRI?"
+      ],
+      "responses": [
+        "Ms. A. NITHYASRI - Computer Vision, Image Processing: Wednesdays and Fridays from 3:00 PM to 5:00 PM"
+      ]
+    },
+    {
+  "tag": "vidhya_time_slots",
+  "patterns": [
+    "What are Mrs. P. VIDHYA's available times?",
+    "When is Mrs. P. VIDHYA available?",
+    "Can I book Mrs. P. VIDHYA?",
+    "Is Mrs. P. VIDHYA available?",
+    "Is Mrs.P. Vidhya available?",
+    "is Mrs.P.VIDHYA available?",
+    "is Mrs.P.VIDHYA available?"
+  ],
+  "responses": [
+    "Mrs. P. VIDHYA - Natural Language Processing, Text Analytics: Mondays and Fridays from 11:00 AM to 1:00 PM"
+  ]
+},
+
+    {
+      "tag": "saratha_time_slots",
+      "patterns": [
+        "What are Mrs. M. SARATHA's available times?",
+        "When is Mrs. M. SARATHA available?",
+        "Can I book Mrs. M. SARATHA?"
+      ],
+      "responses": [
+        "Mrs. M. SARATHA - Big Data Analytics, Data Visualization: Tuesdays and Thursdays from 10:00 AM to 12:00 PM"
+      ]
+    },
+    {
+      "tag": "amsa_time_slots",
+      "patterns": [
+        "What are Mrs. M. AMSA's available times?",
+        "When is Mrs. M. AMSA available?",
+        "Can I book Mrs. M. AMSA?"
+      ],
+      "responses": [
+        "Mrs. M. AMSA - AI in Healthcare, Predictive Analytics: Mondays and Wednesdays from 1:00 PM to 3:00 PM"
+      ]
+    },
+    {
+      "tag": "jaganath_time_slots",
+      "patterns": [
+        "What are Mr. M. JAGANATH's available times?",
+        "When is Mr. M. JAGANATH available?",
+        "Can I book Mr. M. JAGANATH?"
+      ],
+      "responses": [
+        "Mr. M. JAGANATH - Reinforcement Learning, Robotics: Fridays from 9:00 AM to 12:00 PM"
+      ]
+    },
+    {
+      "tag": "stalinbabu_time_slots",
+      "patterns": [
+        "What are Mr. R. STALINBABU's available times?",
+        "When is Mr. R. STALINBABU available?",
+        "Can I book Mr. R. STALINBABU?"
+      ],
+      "responses": [
+        "Mr. R. STALINBABU - Cloud Computing, AI Infrastructure: Tuesdays and Thursdays from 4:00 PM to 6:00 PM"
+      ]
+    },
+    {
+      "tag": "bharaninayagi_time_slots",
+      "patterns": [
+        "What are Mrs. BHARANINAYAGI's available times?",
+        "When is Mrs. BHARANINAYAGI available?",
+        "Can I book Mrs. BHARANINAYAGI?"
+      ],
+      "responses": [
+        "Mrs. BHARANINAYAGI - Statistical Modeling, Predictive Modeling: Mondays and Wednesdays from 10:00 AM to 12:00 PM"
+      ]
+    },
+    {
+      "tag": "hemalatha_time_slots",
+      "patterns": [
+        "What are Mrs. S M. HEMALATHA's available times?",
+        "When is Mrs. S M. HEMALATHA available?",
+        "Can I book Mrs. S M. HEMALATHA?"
+      ],
+      "responses": [
+        "Mrs. S M. HEMALATHA - Data Mining, Machine Learning: Tuesdays and Fridays from 2:00 PM to 4:00 PM"
+      ]
+    },
+    {
+      "tag": "ramya_time_slots",
+      "patterns": [
+        "What are Mrs. S. RAMYA's available times?",
+        "When is Mrs. S. RAMYA available?",
+        "Can I book Mrs. S. RAMYA?"
+      ],
+      "responses": [
+        "Mrs. S. RAMYA - AI for Social Good, Ethics in AI: Mondays and Thursdays from 9:00 AM to 11:00 AM"
+      ]
+    },
+    {
+      "tag": "sribharathi_time_slots",
+      "patterns": [
+        "What are Mrs. B. SRIBHARATHI's available times?",
+        "When is Mrs. B. SRIBHARATHI available?",
+        "Can I book Mrs. B. SRIBHARATHI?"
+      ],
+      "responses": [
+        "Mrs. B. SRIBHARATHI - Neural Networks, Deep Learning: Mondays and Fridays from 1:00 PM to 3:00 PM"
+      ]
+    },
+    {
+      "tag": "nivetha_time_slots",
+      "patterns": [
+        "What are Mrs. K. NIVETHA's available times?",
+        "When is Mrs. K. NIVETHA available?",
+        "Can I book Mrs. K. NIVETHA?"
+      ],
+      "responses": [
+        "Mrs. K. NIVETHA - Natural Language Processing, AI in Finance: Tuesdays and Thursdays from 9:00 AM to 11:00 AM"
+      ]
+    },
+    {
+      "tag": "jothimani_time_slots",
+      "patterns": [
+        "What are Mrs. S. JOTHIMANI's available times?",
+        "When is Mrs. S. JOTHIMANI available?",
+        "Can I book Mrs. S. JOTHIMANI?"
+      ],
+      "responses": [
+        "Mrs. S. JOTHIMANI - AI Ethics, AI Regulation: Wednesdays from 2:00 PM to 4:00 PM"
+      ]
+    },
+    {
+      "tag": "ananya_time_slots",
+      "patterns": [
+        "What are Mrs. ANANYA's available times?",
+        "When is Mrs. ANANYA available?",
+        "Can I book Mrs. ANANYA?"
+      ],
+      "responses": [
+        "Mrs. ANANYA - Computer Vision, Reinforcement Learning: Fridays from 11:00 AM to 1:00 PM"
+      ]
+    },
+    {
+      "tag": "session_info",
+      "patterns": [
+        "What can I expect in a session with a mentor?",
+        "How long does a typical mentor session last?",
+        "Are the sessions conducted online?"
+      ],
+      "responses": [
+        "Mentor sessions typically last 45 minutes to 1 hour and are conducted online. In each session, you can discuss your questions, get guidance, and set goals with your mentor."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Is there a way to rate my mentor?",
+        "Can I leave feedback for my mentor?",
+        "How can I view feedback from other mentees about a mentor?"
+      ],
+      "responses": [
+        "Yes, after each session, you’ll have an option to rate your mentor and leave feedback. You can view mentor feedback on their profile page."
+      ]
+    },
+    {
+      "tag": "scheduling",
+      "patterns": [
+        "Can I reschedule my mentor session?",
+        "What are the available time slots for mentor sessions?",
+        "How do I cancel a mentor booking?"
+      ],
+      "responses": [
+        "To reschedule or cancel a mentor session, please go to your bookings page and select the session you’d like to modify.",
+        "Available time slots depend on the mentor’s availability. Let me know if you need help finding specific time slots."
+      ]
+    },
+    {
+      "tag": "account_setup",
+      "patterns": [
+        "How do I create an account to book a mentor?",
+        "How do I log into my Mentor Connect account?",
+        "Can I view my past sessions?"
+      ],
+      "responses": [
+        "To create an account, click on 'Sign Up' and fill in your details. Once your account is set up, you can book mentors and view your session history.",
+        "To view past sessions, log into your account and check the 'My Sessions' section."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I’m having trouble booking a mentor. Can you help?",
+        "How do I resolve an issue with my account?",
+        "I didn’t receive a booking confirmation. What should I do?"
+      ],
+      "responses": [
+        "For technical support, please contact our support team through the 'Help' section on the website, or describe your issue, and I’ll try to assist you."
+      ]
+    },
+    {
+  "tag": "thank_you",
+  "patterns": [
+    "Thank you!",
+    "Thanks a lot!",
+    "I appreciate it!",
+    "Thanks so much!",
+    "Thank you for your help!",
+    "Thank you for booking my session.",
+    "Thanks for matching me with the perfect mentor.",
+    "I appreciate your quick response!",
+    "Thanks for your help with the task.",
+    "Thank you for providing this information.",
+    "You're awesome, thanks!",
+    "Really appreciate it!",
+    "You're the best, thank you!"
+  ],
+  "responses": [
+    "You're welcome!",
+    "Happy to help!",
+    "It was my pleasure!",
+    "I'm glad I could assist you!",
+    "You're welcome! Let me know if you need anything else."
+  ]
+}
+
+
+
+
+
+    ]
+}
